@@ -1,12 +1,12 @@
-import ngrx from "../../assets/ngrx.png";
-import react from '../../assets/react.png';
-import node from '../../assets/node.png';
-import js from '../../assets/js.png';
-import redux from '../../assets/redux.jpg';
-import angular from '../../assets/angular.png';
-import vue from '../../assets/vue.jpeg';
-import php from '../../assets/php.jpg';
-import laravel from '../../assets/laravel.png';
+import ngrx from "../../assets/ngrx.webp";
+import react from '../../assets/react.webp';
+import node from '../../assets/node.webp';
+import js from '../../assets/js.webp';
+import redux from '../../assets/redux.webp';
+import angular from '../../assets/angular.webp';
+import vue from '../../assets/vue.webp';
+import php from '../../assets/php.webp';
+import laravel from '../../assets/laravel.webp';
 
 export const THEMES = {
     'react' : {

@@ -7,19 +7,19 @@ const Menu = () => {
     return (
         <ul className="menu">
             <Menu.Item
-                name={"person"}
+                name={"user"}
                 link="/#about"
             >
                 About
             </Menu.Item>
             <Menu.Item
-                name={"android-list"}
+                name={"list-alt"}
                 link="/resume#resume"
             >
                 Resume
             </Menu.Item>
             <Menu.Item
-                name={'paintbrush'}
+                name={'paint-brush'}
                 link="/works#works"
             >
                 Works
@@ -41,7 +41,7 @@ Menu.Item = ({link = '#', children, name }) =>
             to={link}
             activeClassName={'active'}
             exact>
-            <span className={`icon ion-${name}`} />
+            <span className={`fa fa-${name}`} />
             {children}
         </NavHashLink>
     </li>;

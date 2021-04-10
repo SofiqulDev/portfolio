@@ -6,7 +6,7 @@ import Info from "../Info";
 import Skills from "../Skills";
 import {ThemeContext} from "../../context/ThemeContext";
 import {useAnimation} from "../../use/animation";
-import avater from "./avater.jpeg";
+import avater from "./avater.webp";
 
 const Profile = () => {
     const { backgroundImage, type } = useContext(ThemeContext);
@@ -24,8 +24,8 @@ const Profile = () => {
                 <TypedText
                   dataText={
                       [
-                          'Web Developer',
-                      ]
+                        'Web Developer',
+                       ]
                   }
                 />
                 <SocialLinks/>

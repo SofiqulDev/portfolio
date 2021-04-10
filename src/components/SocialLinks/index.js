@@ -24,13 +24,19 @@ const SocialLinks = () => {
                 rel="noopener noreferrer"
                 type={'skype'}
             />
+            <SocialLinks.Link
+                url={'tel:+8801799008442'}
+                rel="noopener noreferrer"
+                type={'phone'}
+                types={'fa fa-phone'}
+            />
         </div>
     );
 };
 
 
 
-SocialLinks.Link = ({url, type}) => <a href={url} target="_blank" ><span className={`fab fa-${type}`} /></a>
+SocialLinks.Link = ({url, type, types}) => <a href={url} target="_blank" ><span className={types ? types : `fab fa-${type}`} /></a>
 ;
 
 export default SocialLinks;
